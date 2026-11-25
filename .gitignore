@@ -1,0 +1,18 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Llama model files (too large for git — download separately)
+llama_models/
+*.pte
+
+# APK outputs
+app/build/
+
