@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SentinelGuard</string>
+    <string name="notification_listener_label">SentinelGuard Notification Monitor</string>
+    <string name="status_protection_active">Protection Active</string>
+    <string name="status_protection_inactive">Protection Inactive</string>
+
+    <!-- VPN foreground service channel -->
+    <string name="vpn_channel_name">VPN Service</string>
+    <string name="vpn_channel_description">SentinelGuard VPN protection status</string>
+
+    <!-- Threat alert channel -->
+    <string name="alerts_channel_name">Threat Alerts</string>
+    <string name="alerts_channel_description">High-priority alerts when SentinelGuard detects a scam or network threat</string>
+
+    <string name="shield_icon_description">Shield icon indicating protection status</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This XML theme is only needed to satisfy the Android manifest's android:theme attribute.
+    All visual styling is handled entirely by Jetpack Compose (SentinelGuardTheme).
+    We use android:Theme.Material.Light.NoActionBar as the parent because it is built into
+    the platform (API 21+) and requires no additional library dependencies.
+-->
+<resources>
+    <style name="Theme.SentinelGuard" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Keep the status/nav bars transparent so Compose edge-to-edge works correctly -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- Compose draws its own background; set window background to match brand dark colour -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+</resources>
